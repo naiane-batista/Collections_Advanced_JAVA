@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="caracteristicas-da-linguagem/src/main/java"/>
+	<classpathentry kind="src" path="exemplo-gradle/src/main/java"/>
+	<classpathentry kind="src" path="exemplo-gradle/src/test/java"/>
+	<classpathentry kind="src" path="exemplo-maven/.mvn/wrapper"/>
+	<classpathentry kind="src" path="exemplo-maven/src/main/java"/>
+	<classpathentry kind="src" path="exemplo-maven/src/test/java"/>
+	<classpathentry kind="lib" path="caracteristicas-da-linguagem/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="exemplo-gradle/build/libs/exemplo-gradle-0.0.1-SNAPSHOT-plain.jar"/>
+	<classpathentry kind="lib" path="exemplo-gradle/build/libs/exemplo-gradle-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="exemplo-gradle/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="exemplo-maven/target/exemplo-maven-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="caracteristicas-da-linguagem/build/classes/java/main"/>
+</classpath>

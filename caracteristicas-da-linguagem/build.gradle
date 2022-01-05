@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'pmd'
+}
+
+group 'one.innovation.digital'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+checkstyle{
+    toolVersion='8.45.1'
+    showViolations = true
+   // configFile= File
+}
+test {
+    useJUnitPlatform()
+}
